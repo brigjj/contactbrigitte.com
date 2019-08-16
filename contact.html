@@ -1,0 +1,389 @@
+<style type="text/css">
+	
+
+   *{
+   	font-family: arial;
+   }
+
+
+	body {
+    padding: 10%;
+	}
+
+
+.Home{
+	  position: relative;
+	  bottom:110px;
+	  left: 43%;
+    width: 150px;
+    height: 110px;
+    border: 2px solid #C0C0C0;
+    border-radius: 110px / 80px;
+    font-size: 150%;
+    font-weight: bold;
+    font-size:180%;
+ }
+
+   @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .Home{
+    position: relative;
+    bottom:110px;
+    left: 30%;
+    top:-40px;
+    width: 330px;
+    height: 230px;
+    border: 4px solid #C0C0C0;
+    border-radius: 220px / 160px;
+    font-size: 150%;
+    font-weight: bold;
+    font-size:180%;
+ }
+}
+
+	a{
+	position: relative;
+	left:16%;
+	top:50px;
+	text-decoration: none;
+	color:#000000;
+  font-size: 1.2em;
+	}
+	
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {  
+  a{
+  position: relative;
+  left:24%;
+  top:120px;
+  text-decoration: none;
+  color:#000000;
+  font-size: 2em;
+  }
+  }
+
+
+
+  .container {
+  display: block;
+  position: relative;
+  padding-top:7px;
+  padding-left: 35px;
+  margin-bottom: 12px;
+
+  font-size: 1em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+ border: 2px solid #C0C0C0;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { 
+  .checkmark {
+  position: absolute;
+  top:20%;
+  left: -9%;
+  height:30%;
+  width: 15%;
+  background-color: #eee;
+ border: 2px solid #C0C0C0;
+}
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color:#000000;
+}
+
+/* When the checkbox is checked, add yellow */
+.container input:checked ~ .checkmark {
+  background-color:	#deda00;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { 
+ .container .checkmark:after {
+  visibility: hidden;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+} 
+
+.label1{
+	position: relative;
+	bottom:5px;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {  
+  .label1{
+  position: relative;
+  bottom:5px;
+  font-size: 3em;
+}
+}
+
+
+.label2{
+	position: relative;
+	top:15px;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {  
+  .label2{
+  position: relative;
+  bottom:5px;
+  font-size: 3em;
+}
+}
+
+
+
+#subject {
+	position: relative;
+	top:0px;
+	width: 100%;
+	height: 10%;
+	border: 2px solid #C0C0C0;
+}
+
+
+#message{
+	position: relative;
+	top:20px;
+	width: 100%;
+	height: 30%;
+	border: 2px solid #C0C0C0;
+}
+
+
+.container{
+	position: relative;
+	top:40px;
+	width: 100%;
+	height: 30%;
+}
+
+
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .container{
+  position: relative;
+  top:40px;
+  width: 100%;
+  height: 20%;
+  font-size:2em;
+}
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .field{
+    width: 120%;
+    position: relative;
+    left:-10%;
+    top:50px;
+
+  }
+  }
+
+
+#submit{
+	position: relative;
+	bottom:30px;
+	left: 35%;
+  width: 140px;
+  height: 110px;
+  border: 2px solid #C0C0C0;
+  border-radius: 80px /60px;
+  font-size: 2em;
+  font-weight: bold;
+  background-color: #ffffff;
+}
+
+
+/*
+
+#submit{
+  position: relative;
+  bottom:30px;
+  left: 35%;
+  width: 130px;
+  height: 80px;
+  border: 2px solid #C0C0C0;
+  border-radius: 80px / 50px;
+  font-size: 150%;
+  font-weight: bold;
+  background-color: #ffffff;
+}
+
+*/
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #submit{
+    position: relative;
+    bottom:30px;
+    left:3%;
+    width: 330px;
+    height:240px;
+    border:4px solid #C0C0C0;
+    border-radius: 160px / 120px;
+    font-size: 4em;
+    font-weight: bold;
+    background-color: #ffffff;
+    }}
+
+
+  #reset{
+  position: relative;
+  bottom:30px;
+  left: 40%;
+  width: 140px;
+  height: 110px;
+  border: 2px solid #C0C0C0;
+  border-radius: 80px /60px;
+  font-size: 2em;
+  font-weight: bold;
+  background-color: #ffffff;
+}
+
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+   #reset{
+    position: relative;
+    bottom:30px;
+    left: 10%;
+    width: 330px;
+    height:240px;
+    border: 4px solid #C0C0C0;
+    border-radius: 160px / 120px;
+    font-size: 4em;
+    font-weight: bold;
+    background-color: #ffffff;
+   }
+  }
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .request{
+    font-size: 1.5em;
+    position: relative;
+    top:30%;
+    left:5%;
+  }
+}
+
+footer {
+	text-align: center;
+	position: relative;
+
+}
+
+
+
+</style>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hire Brigitte / Contact</title>
+  <link rel="shortcut icon" type="image/png" href="case/favicon.png"/>
+</head>
+
+<body>
+
+<div class="Home"> <a href="index.html"> HOME </a> </div>
+
+
+
+
+<form action="mailto:contactbrigittebb@gmail.com" method="POST" target="_blank">
+
+    <div class="field"><label class="label1" for="subject">NAME</label>
+        <input style="font-size:25px;" name="subject" id="subject" type="text" class="input"> </div>
+
+  <!--  <div class="field"><label class="label2" for="body">Message</label>
+    	<input type="text" id="message" name="comment" value="Write me a message!"> > <br><br>-->
+      
+
+
+	<div class="field"><label class="label2" for="body">MESSAGE</label>
+  	<textarea style="font-size:25px;" class="textarea" name="body" id="message"> Lets work together ! </textarea></div>
+ 	
+
+
+	  <label class="container"> <span class="request"> REQUEST RESUME </span>
+	  <input type="checkbox">
+	  <span class="checkmark"></span>
+	  </label>
+
+
+
+ 	<input type="submit" value="send" id="submit">
+    <input type="reset" value="reset" id="reset">
+
+
+</form>
+
+
+
+
+
+
+
+
+</body>
+</html>

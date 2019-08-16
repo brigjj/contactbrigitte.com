@@ -1,0 +1,309 @@
+
+
+<style type="text/css">
+	*{
+		font-family: arial;
+	 }
+
+	 .container1{
+		 position: relative;
+		 top:5px;
+		 width: 100%:
+		 height:auto;
+		 background:#ffffff;
+		 display: flex;
+		 flex-direction: row;
+		 justify-content: space-around;
+		 flex-flow:wrap;
+		 min-width: 0;
+	}
+
+	.container1 img {
+	  	width: 100%;
+	   	height: 100%;
+	}
+
+	 .backArrow{
+	width:8%;
+	height:auto;
+	position:sticky;
+	padding-top:1%;
+	left:2%;
+	opacity: 0.7;
+	} 
+
+	
+	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  	.backArrow{
+  		width: 20%;
+  	}
+   }
+
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  	.backArrow{
+	width:8%;
+	height:auto;
+	position:relative;
+	padding-top:1%;
+	left:2%;
+	opacity: 0.7;
+  	}
+   }
+  
+
+	.backArrow {
+	  position: -webkit-sticky;
+	  position: -moz-sticky;
+	  position: -ms-sticky;
+	  position: -o-sticky;
+	  top: 0px;
+    }
+
+
+	.planetX{
+		width:70%;
+		height:580px;
+		margin:30px;
+		box-sizing: border-box;
+		font-size: 50px;	
+	}
+	
+
+	.planetXMobile {
+	width:40%;
+	height:400px;
+	padding-bottom: 3%;
+	box-sizing: border-box;
+	}
+
+
+
+
+	h1 {
+		text-align: center;
+	}
+
+	#intro {
+		position: relative;
+		text-align: center;
+		bottom:20px;
+		font-size: 300%;
+		color:rgba(33, 33, 33,0.8);
+	}
+
+	#tools {
+		text-align: center;
+		font-weight: bold;
+		color:#d4d4d4;
+	}
+
+
+	p{ 
+		color:rgba(33, 33, 33,0.8);
+		line-height: 2;
+		margin-left: 15%;
+		margin-right: 14%;
+		margin-bottom: 8%;
+		font-size: 1em;
+		color:#9e9e9e;
+	}
+
+
+	.P1 {
+		width:50%;
+		position: relative;
+		left:25%;
+		top:-50px;
+		padding-bottom: 2%;
+		
+    }
+
+    .P2 {
+		width:80%;
+		position: relative;
+		left:8%;
+		top:-50px;
+		padding: 2%;
+	
+    }
+
+	.PMap{
+		width:90%;
+		position: relative;
+		left:1%;
+		top:-50px;
+		padding: 2%;
+	}
+
+
+
+    .Pwelcome {
+    	width: 40%;
+    	position: relative;
+    	left:6%;
+    	top:-400px;
+
+    }
+
+    .Pabout {
+    	width:8%;
+    	position: relative;
+    	left:12%;
+    	top:-10px;
+    }
+ 
+ 	.Pdjset {
+ 		width: 30%;
+    	position: relative;
+    	left:17%;
+    	top:-200px;
+ 	} 	
+   
+    .Pshop{
+    	width: 6%;
+    	position: relative;
+    	left:40%;
+    	top:-100px;
+    }
+
+    .Pglobe{
+    	width: 40%;
+    	position: relative;
+    	left:10%;
+    	top:-200px;
+
+    }
+
+
+    .lastArrow{
+		width:8%;
+		height:auto;
+		padding:1.5%;
+		opacity: 0.5;
+	}
+
+	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { 
+  	.lastArrow {
+  		width: 20%;
+  	}
+   }
+
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  	.lastArrow {
+  		width:8%;
+		height:auto;
+		padding:1.5%;
+		opacity: 0.5;
+  	}
+    }
+
+
+
+
+</style>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Brigitte - Portfolio </title>
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+	<link rel="shortcut icon" type="image/png" href="case/favicon.png"/>
+</head>
+<body>
+
+
+
+<a class="backArrow" href="index.html"><img class="backArrow" src="case/backArrow.png"></a>
+
+
+<div class="container1">
+
+<div class=planetX data-aos="fade-right" data-aos-delay="100"
+data-aos-duration="2000"><img src="case/planetxdesktop.gif" alt="planetx"/></div>
+
+<div class=planetX data-aos="fade-left" data-aos-delay="100"
+data-aos-duration="1500"><img src="case/planetxdesktopL.gif"alt="planetxBig"/></div> 
+
+<div class=planetXMobile data-aos="fade-left" data-aos-delay="100"data-aos-duration="2000"><img src="case/planetxmobile.gif"alt="planetxMobile"/></div>
+
+</div>
+
+
+<h1 id="intro" data-aos="fade-up" data-aos-duration="1000">Introduction</h1>
+
+
+<p id="tools"> Tools used : Figma | HTML & CSS | Adobe Photoshop | Adobe Illustrator </p>
+
+<p>  Venus X is a DJ / all around renaissance women based in NYC. Planet X is a clothing boutique she created after the cult success of her ghe20g0th1k house parties. After Planet X’s physical store front closed its doors, the brand moved online using Depop’s sales platform. Locating PLANET X’s Depop site proved burdensome, as many users on the platform used the same moniker. Adding to the confusion, Venus has as many as five separate social media platforms. <!-- separate Instagram accounts, a Souncloud account, and lastly a Twitter account.--> The initial objective was to create a store-front website for PLANET X. However, it was now clear that my new task was to create a landing page that would function as a nucleus. This up to date page would effortlessly guide her audiences to discover all her other various platforms.
+</p>
+
+
+
+<h1 id="intro" data-aos="fade-up" data-aos-duration="1000">Design Process / Testing</h1>
+
+<p>
+After some research, the data suggested that only 1 out of 5 of Venus' accounts was generating an increase in followings. The rest of the accounts all displayed negative, fluctuating followings. I then went on to conduct a poll. The poll asked how likely a person would follow a side account created by an influencer they had already followed. The outcome was poor. As the majority claimed that they were less likely to follow a sister account. However, a more specific poll was conducted. This poll questioned whether a person would follow a side account if the account offered different content. This time the majority claimed they would. Only one of Venus' accounts did not offer different content, that being her twitter. This gave me enough evidence that the creation of a main landing page would be an ideal method to give her other accounts better exposure.
+</p>
+
+<img class="P1" src="case/Pgraph.png"> 
+<img class="P2" src="case/Pgraph2.png"> 
+
+
+
+<p>
+I then went on to create iterations of how I conceptualized the web page to flow. It was essential the web page was based off of a nucleus structure. From the research conducted, I went onto designing a main nucleus that would hold options to introduce Venus' various platforms.
+</p>
+
+<img class="PMap" src="case/PlanetXMap.png"> 
+
+
+
+<p>
+Each of her different accounts posses some dosage of fun, edge, and rawness. Venus' style can be categorized as fashion goth, but over the years it has begun to look more streetwear inspired. Initially I played around with a black background, but later saw that it was too much of a simplistic interpretation of goth. Craiglist immediately came to mind. Craiglist has many times been categorized as “ugly design”. Subculture has strong ties with irony, and Venus' audience are part of an underground community. Irony is deviant, and "ugly design" is definitely a rebellion to mainstream web design. I took the skeleton idea of craiglist and complemented it with rounded shapes. Rounded corners give the page a fitter, stylistic look.
+</p>
+
+<img class="P2" src="case/P1.png"> 
+
+
+<p>
+The blinking "welcome" header, animated globe, fading purple set box, and moving planetX marquee energize the page. The movement lightly mimics the pulsation felt at the club. The colour black finds its way back as it becomes useful in the shop container. A crosshair pointer hovers over and the box is gradually filled with black. These animations paired with a clean white format make it both simple and absorbing enough for a viewer to desire to stay and interact with the page.
+</p>
+
+<div>
+<img class="Pwelcome" src="case/Pwelcomebar.gif"> 
+<img class="Pabout" src="case/Pabout.gif">
+<img class="Pdjset" src="case/Pdjset.gif">
+<img class="Pglobe" src="case/globee.gif">  	
+<img class="Pshop" src="case/Pshop.gif"> 
+</div>
+
+<p>
+The logo of PlanetX went through a couple iterations. I took influence from the font displayed on NYC taxis. PlanetX is New York based, so it only made sense to take inspiration from the city itself. In the end a focus group decided that the Chrome text presented the best interpretation of cool and raw.
+</p>
+
+
+<img class="P2" src="case/Ptext.png"> 
+
+
+<h1 id="intro" data-aos="fade-up" data-aos-duration="1000">Final takeaway</h1>
+
+
+
+<p>  This project proved difficult at first, since there were so many sites to be handled. However, after working through many of my style interpretations, I realized I only needed to create a universal aesthetic that appealed to all Venus' multidisciplinary projects. Not only did I discover a style that balanced all of Venus' projects, but my personal aesthetic came through strong in this project. My aesthetic has special attachment to balance, with a crucial attention to cleverly unveiling a brand's ethos.  </p>
+
+
+<a href="index.html"><img class="lastArrow" src="case/backArrow.png"></a> 
+
+
+  <script src="plugins/jquery-3.4.1.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+
+</body>
+</html>
