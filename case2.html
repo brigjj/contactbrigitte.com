@@ -1,9 +1,69 @@
 
-
 <style type="text/css">
 	*{
-		font-family: arial;
+	
+		-webkit-font-smoothing: antialiased;
 	 }
+
+	  p {
+	 	text-align: center;
+	 	line-height: 2;
+		margin-left: 8%;
+		margin-right: 8%;
+		margin-bottom: 8%;
+		font-size: 100%;
+		line-height: 2;
+		color:#9e9e9e;
+		color:#8B8A8A;
+		font-family: 'M PLUS 1p', sans-serif;
+	 }
+
+
+
+	@media screen and (min-width: 1024px){
+	p {
+		font-size: 80%;
+		margin-right: 6%;
+		margin-bottom: 6%;
+	}
+	}
+
+
+	@media screen and (min-width: 1280px){
+	p {
+		font-size:100%;
+		margin-left: 6%;
+		margin-right: 6%;
+		margin-bottom: 8%;
+	}
+	}
+
+
+
+	@media screen and (min-width: 1440px){
+	p {
+		font-size:120%;
+		margin-left: 8%;
+		margin-right: 8%;
+		margin-bottom: 8%;
+	}
+	}
+
+
+
+	@media screen and (min-width: 1680px){
+	p {
+		font-size:130%;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-bottom: 8%;
+	}
+	}
+
+
+
+
+
 
 	 .container1{
 		 position: relative;
@@ -17,12 +77,10 @@
 		 flex-flow:wrap;
 		 min-width: 0;
 	}
-
 	.container1 img {
 	  	width: 100%;
 	   	height: 100%;
 	}
-
 	 .backArrow{
 	width:8%;
 	height:auto;
@@ -31,14 +89,12 @@
 	left:2%;
 	opacity: 0.7;
 	} 
-
 	
 	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   	.backArrow{
   		width: 20%;
   	}
    }
-
     @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
   	.backArrow{
 	width:8%;
@@ -50,7 +106,6 @@
   	}
    }
   
-
 	.backArrow {
 	  position: -webkit-sticky;
 	  position: -moz-sticky;
@@ -58,8 +113,6 @@
 	  position: -o-sticky;
 	  top: 0px;
     }
-
-
 	.planetX{
 		width:70%;
 		height:580px;
@@ -69,6 +122,51 @@
 	}
 	
 
+	@media screen and (min-width: 1024px){
+		.planetX{
+		width:70%;
+		height:510px;
+		margin:30px;
+		box-sizing: border-box;
+		font-size: 50px;	
+	}
+	}
+
+
+	@media screen and (min-width: 1280px){
+		.planetX{
+		width:70%;
+		height:580px;
+		margin:30px;
+		box-sizing: border-box;
+		font-size: 50px;	
+	}
+	}
+
+
+
+	@media screen and (min-width: 1440px){
+		.planetX{
+		width:70%;
+		height:680px;
+		margin:30px;
+		box-sizing: border-box;
+		font-size: 50px;	
+	}
+	}
+
+	@media screen and (min-width: 1680px){
+		.planetX{
+		width:70%;
+		height:780px;
+		margin:30px;
+		box-sizing: border-box;
+		font-size: 50px;	
+	}
+	}
+
+
+
 	.planetXMobile {
 	width:40%;
 	height:400px;
@@ -76,13 +174,52 @@
 	box-sizing: border-box;
 	}
 
+	@media screen and (min-width: 1024px){
+	.planetXMobile {
+	width:45%;
+	height:350px;
+	padding-bottom: 3%;
+	box-sizing: border-box;
+	}
+	}
+
+	@media screen and (min-width: 1280px){
+	.planetXMobile {
+	width:45%;
+	height:450px;
+	padding-bottom: 3%;
+	box-sizing: border-box;
+	}
+	}
+
+	@media screen and (min-width: 1440px){
+	.planetXMobile {
+	width:45%;
+	height:500px;
+	padding-bottom: 3%;
+	box-sizing: border-box;
+	}
+	}
+
+	@media screen and (min-width: 1680px){
+	.planetXMobile {
+	width:45%;
+	height:600px;
+	padding-bottom: 3%;
+	box-sizing: border-box;
+	}
+	}
+
+
+
+
 
 
 
 	h1 {
 		text-align: center;
 	}
-
+	
 	#intro {
 		position: relative;
 		text-align: center;
@@ -91,22 +228,15 @@
 		color:rgba(33, 33, 33,0.8);
 	}
 
+
+
+
 	#tools {
 		text-align: center;
 		font-weight: bold;
 		color:#d4d4d4;
 	}
 
-
-	p{ 
-		color:rgba(33, 33, 33,0.8);
-		line-height: 2;
-		margin-left: 15%;
-		margin-right: 14%;
-		margin-bottom: 8%;
-		font-size: 1em;
-		color:#9e9e9e;
-	}
 
 
 	.P1 {
@@ -117,7 +247,6 @@
 		padding-bottom: 2%;
 		
     }
-
     .P2 {
 		width:80%;
 		position: relative;
@@ -126,24 +255,39 @@
 		padding: 2%;
 	
     }
-
 	.PMap{
 		width:90%;
 		position: relative;
-		left:1%;
+		left:3%;
 		top:-50px;
 		padding: 2%;
 	}
-
-
-
     .Pwelcome {
     	width: 40%;
     	position: relative;
     	left:6%;
     	top:-400px;
-
     }
+
+     @media screen and (min-width: 1024px){
+	 .Pwelcome {
+    	width: 40%;
+    	position: relative;
+    	left:6%;
+    	top:-300px;
+    }
+	}
+
+
+    @media screen and (min-width: 1280px){
+	 .Pwelcome {
+    	width: 40%;
+    	position: relative;
+    	left:6%;
+    	top:-400px;
+    }
+	}
+
 
     .Pabout {
     	width:8%;
@@ -165,39 +309,109 @@
     	left:40%;
     	top:-100px;
     }
-
     .Pglobe{
     	width: 40%;
     	position: relative;
     	left:10%;
     	top:-200px;
-
     }
+ 
 
 
-    .lastArrow{
-		width:8%;
-		height:auto;
-		padding:1.5%;
-		opacity: 0.5;
+    hr {
+	display: block;
+	border:none;
+  	height: 20px;
+ 	width: 90%;
+	height: 50px;
+	padding-top:1%;
+	border-bottom: 1px solid #DCDCDC;
+	box-shadow: 0 20px 20px -20px #A9A9A9;
+ 	margin: -50px auto 10px; 
 	}
 
-	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { 
-  	.lastArrow {
-  		width: 20%;
-  	}
-   }
+   @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+	hr {
+	display: block;
+	border:none;
+  	height: 20px;
+ 	width: 100%;
+	height: 50px;
+	margin-top: 0;
+	padding-top:2%;
+	border-bottom: 1px solid #DCDCDC;
+	box-shadow: 0 20px 20px -20px #A9A9A9;
+ 	margin: -50px auto 10px; 
+	}
+	}
 
-    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-  	.lastArrow {
-  		width:8%;
-		height:auto;
-		padding:1.5%;
-		opacity: 0.5;
-  	}
-    }
+
+	@media screen and (min-width: 1024px) {
+	hr {
+  	height: 35px;
+ 	width: 100%;
+	}
+	}
 
 
+
+
+
+   footer {
+		position: sticky;
+		color:#C0C0C0;
+		text-align: center;
+		font-size: 120%;
+		padding-top: 1%;
+		padding-right:1%;
+		text-decoration: none;
+	 }
+
+
+	@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+	  footer {
+		position: sticky;
+		text-align: center;
+		font-size: 150%;
+		padding-top: 2%;
+		padding-right:1%;
+		padding-bottom: 3%;
+		text-decoration: none;
+	}
+	}
+
+
+
+	 footer a {
+ 		position: sticky;
+	 	font-family: "Times New Roman", Times, serif;
+		font-style: italic;
+		color:#C0C0C0;
+	 	text-decoration: none;
+	 }
+
+
+	@media screen and (min-width: 1440px) {
+		 footer a {
+ 		position: sticky;
+	 	font-family: "Times New Roman", Times, serif;
+		font-style: italic;
+		color:#C0C0C0;
+	 	text-decoration: none;
+	 	font-size: 130%;
+	 }
+	}
+
+	@media screen and (min-width: 1680px) {
+		 footer a {
+ 		position: sticky;
+	 	font-family: "Times New Roman", Times, serif;
+		font-style: italic;
+		color:#C0C0C0;
+	 	text-decoration: none;
+	 	font-size: 150%;
+	 }
+	}
 
 
 </style>
@@ -209,6 +423,8 @@
 <html>
 <head>
 	<title> Brigitte - Portfolio </title>
+	<link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 	<link rel="shortcut icon" type="image/png" href="case/favicon.png"/>
 </head>
@@ -232,18 +448,35 @@ data-aos-duration="1500"><img src="case/planetxdesktopL.gif"alt="planetxBig"/></
 </div>
 
 
-<h1 id="intro" data-aos="fade-up" data-aos-duration="1000">Introduction</h1>
-
 
 <p id="tools"> Tools used : Figma | HTML & CSS | Adobe Photoshop | Adobe Illustrator </p>
 
-<p>  Venus X is a DJ / all around renaissance women based in NYC. Planet X is a clothing boutique she created after the cult success of her ghe20g0th1k house parties. After Planet X’s physical store front closed its doors, the brand moved online using Depop’s sales platform. Locating PLANET X’s Depop site proved burdensome, as many users on the platform used the same moniker. Adding to the confusion, Venus has as many as five separate social media platforms. <!-- separate Instagram accounts, a Souncloud account, and lastly a Twitter account.--> The initial objective was to create a store-front website for PLANET X. However, it was now clear that my new task was to create a landing page that would function as a nucleus. This up to date page would effortlessly guide her audiences to discover all her other various platforms.
-</p>
+<h1 id="intro" data-aos="fade-up" data-aos-duration="1000">Objective</h1>
+
+<p> Improve user experience by creating a singular web and mobile platform. Making it easier for followers to track all of Venus' various projects. </p>
+
+
+<!--
+<p>  Venus X is a DJ / all around renaissance women based in NYC. Planet X is a clothing boutique she created after the cult success of her ghe20g0th1k house parties. After Planet X’s physical store front closed its doors, the brand moved online using Depop’s sales platform. Locating PLANET X’s Depop site proved burdensome, as many users on the platform used the same moniker. Adding to the confusion, Venus has as many as five separate social media platforms. separate Instagram accounts, a Souncloud account, and lastly a Twitter account.The initial objective was to create a store-front website for PLANET X. However, it was now clear that my new task was to create a landing page that would function as a nucleus. This up to date page would effortlessly guide her audiences to discover all her other various platforms.
+</p> -->
+
+
+<h1 id="intro" data-aos="fade-up" data-aos-duration="1000">The Problem</h1>
+
+<p> Venus X is a DJ with as many as five separate social media platforms. In addition, she owns a separate boutique called PLANET X. Locating PLANET X’s Depop site proved burdensome, as many users on the platform used the same moniker. There was also no singular site to keep track of her DJ set dates. </p>
+
+
+<h1 id="intro" data-aos="fade-up" data-aos-duration="1000">The Solution</h1>
+
+<p> Re-designed a website and mobile app that functioned as a nucleus, which directed followers to all of Venus' various side platforms.
+
+This would prevent the loss of followers and increase the amount awareness to her work.</p>
 
 
 
-<h1 id="intro" data-aos="fade-up" data-aos-duration="1000">Design Process / Testing</h1>
 
+
+<h1 id="intro" data-aos="fade-up" data-aos-duration="1000">Design, Planning & Research</h1>
 <p>
 After some research, the data suggested that only 1 out of 5 of Venus' accounts was generating an increase in followings. The rest of the accounts all displayed negative, fluctuating followings. I then went on to conduct a poll. The poll asked how likely a person would follow a side account created by an influencer they had already followed. The outcome was poor. As the majority claimed that they were less likely to follow a sister account. However, a more specific poll was conducted. This poll questioned whether a person would follow a side account if the account offered different content. This time the majority claimed they would. Only one of Venus' accounts did not offer different content, that being her twitter. This gave me enough evidence that the creation of a main landing page would be an ideal method to give her other accounts better exposure.
 </p>
@@ -295,7 +528,10 @@ The logo of PlanetX went through a couple iterations. I took influence from the 
 <p>  This project proved difficult at first, since there were so many sites to be handled. However, after working through many of my style interpretations, I realized I only needed to create a universal aesthetic that appealed to all Venus' multidisciplinary projects. Not only did I discover a style that balanced all of Venus' projects, but my personal aesthetic came through strong in this project. My aesthetic has special attachment to balance, with a crucial attention to cleverly unveiling a brand's ethos.  </p>
 
 
-<a href="index.html"><img class="lastArrow" src="case/backArrow.png"></a> 
+<!--<a href="index.html"><img class="lastArrow" src="case/backArrow.png"></a> -->
+
+<hr>
+<footer><a href="#top"> Copyright © 2019 Brigitte Wang </a></footer>
 
 
   <script src="plugins/jquery-3.4.1.min.js"></script>

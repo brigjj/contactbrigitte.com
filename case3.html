@@ -1,9 +1,68 @@
 
-
 <style type="text/css">
 	*{
-		font-family: arial;
+		-webkit-font-smoothing: antialiased;
 	 }
+
+	   p {
+	 	text-align: center;
+	 	line-height: 2;
+		margin-left: 8%;
+		margin-right: 8%;
+		margin-bottom: 8%;
+		font-size: 100%;
+		line-height: 2;
+		color:#9e9e9e;
+		color:#8B8A8A;
+		font-family: 'M PLUS 1p', sans-serif;
+	 }
+
+
+
+	@media screen and (min-width: 1024px){
+	p {
+		font-size: 100%;
+		margin-left: 6%;
+		margin-right: 6%;
+	}
+	}
+
+
+	@media screen and (min-width: 1280px){
+	p {
+		font-size:100%;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-bottom: 8%;
+	}
+	}
+
+
+
+	@media screen and (min-width: 1440px){
+	p {
+		font-size:110%;
+		margin-left: 8%;
+		margin-right: 8%;
+		margin-bottom: 8%;
+	}
+	}
+
+
+
+	@media screen and (min-width: 1680px){
+	p {
+		font-size:120%;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-bottom: 8%;
+	}
+	}
+
+
+
+
+
 
 	 .container1{
 	 	position: relative;
@@ -33,12 +92,23 @@
 	opacity: 0.7;
 	} 
 
-	@media only screen and (min-width:375px) {
-  	.backArrow {
+	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  	.backArrow{
   		width: 20%;
   	}
+   }
 
 
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  	.backArrow{
+	width:8%;
+	height:auto;
+	position:relative;
+	padding-top:1%;
+	left:2%;
+	opacity: 0.7;
+  	}
+   }
 
 	.backArrow {
 	  position: -webkit-sticky;
@@ -56,16 +126,6 @@
 		color:#d4d4d4;
 	}
 
-	p{ 
-		color:rgba(33, 33, 33,0.8);
-		line-height: 2;
-		margin-left: 15%;
-		margin-right: 14%;
-		margin-bottom: 8%;
-		font-size: 1em;
-		color:#9e9e9e;
-	}
-
 
 
 	.Tsumiki{
@@ -76,10 +136,56 @@
 		font-size: 50px;	
 	}
 
- 	@media only screen and (min-width:375px) {
+ 	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   	.Tsumiki {
   		width:100%;
   	}
+	}
+
+
+	@media screen and (min-width: 1024px){
+	.Tsumiki{
+		width:70%;
+		height:500px;
+		margin:30px;
+		box-sizing: border-box;
+		font-size: 50px;	
+	}
+	}
+
+
+
+	@media screen and (min-width: 1280px){
+	.Tsumiki{
+		width:70%;
+		height:600px;
+		margin:30px;
+		box-sizing: border-box;
+		font-size: 50px;	
+	}
+	}
+
+
+	@media screen and (min-width: 1440px){
+	.Tsumiki{
+		width:70%;
+		height:650px;
+		margin:30px;
+		box-sizing: border-box;
+		font-size: 50px;	
+	}
+	}
+
+
+
+	@media screen and (min-width: 1680px){
+	.Tsumiki{
+		width:70%;
+		height:730px;
+		margin:30px;
+		box-sizing: border-box;
+		font-size: 50px;	
+	}
 	}
 	/*
 	.snackyM{
@@ -94,6 +200,7 @@
 		text-align: center;
 	}
 
+
 	#intro {
 		position: relative;
 		text-align: center;
@@ -101,6 +208,22 @@
 		font-size: 300%;
 		color:rgba(33, 33, 33,0.8);
 	}
+
+
+	@media screen and (min-width: 1024px){
+	#intro {
+		font-size: 250%;
+	}
+	}
+
+	@media screen and (min-width: 1680px){
+	#intro {
+		font-size: 350%;
+	}
+	}
+
+	
+	
 
    /*
 	p{
@@ -215,18 +338,101 @@
 		padding:2%;
 	}
 
-	.lastArrow{
-		width:8%;
-		height:auto;
-		padding:1.5%;
-		opacity: 0.5;
+	
+    hr {
+	display: block;
+	border:none;
+  	height: 20px;
+ 	width: 90%;
+	height: 50px;
+	padding-top:1%;
+	border-bottom: 1px solid #DCDCDC;
+	box-shadow: 0 20px 20px -20px #A9A9A9;
+ 	margin: -50px auto 10px; 
+	}
+
+   @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+	hr {
+	display: block;
+	border:none;
+  	height: 20px;
+ 	width: 100%;
+	height: 50px;
+	margin-top: 0;
+	padding-top:2%;
+	border-bottom: 1px solid #DCDCDC;
+	box-shadow: 0 20px 20px -20px #A9A9A9;
+ 	margin: -50px auto 10px; 
+	}
 	}
 
 
-	@media only screen and (min-width:375px) {
-  	.lastArrow {
-  		width: 20%;
-  	}
+	@media screen and (min-width: 1024px) {
+	hr {
+  	height: 35px;
+ 	width: 100%;
+	}
+	}
+
+
+
+
+
+   footer {
+		position: sticky;
+		color:#C0C0C0;
+		text-align: center;
+		font-size: 120%;
+		padding-top: 1%;
+		padding-right:1%;
+		text-decoration: none;
+	 }
+
+
+	@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+	  footer {
+		position: sticky;
+		text-align: center;
+		font-size: 150%;
+		padding-top: 2%;
+		padding-right:1%;
+		padding-bottom: 3%;
+		text-decoration: none;
+	}
+	}
+
+
+
+	 footer a {
+ 		position: sticky;
+	 	font-family: "Times New Roman", Times, serif;
+		font-style: italic;
+		color:#C0C0C0;
+	 	text-decoration: none;
+	 }
+
+
+	@media screen and (min-width: 1440px) {
+		 footer a {
+ 		position: sticky;
+	 	font-family: "Times New Roman", Times, serif;
+		font-style: italic;
+		color:#C0C0C0;
+	 	text-decoration: none;
+	 	font-size: 130%;
+	 }
+	}
+
+	@media screen and (min-width: 1680px) {
+		 footer a {
+ 		position: sticky;
+	 	font-family: "Times New Roman", Times, serif;
+		font-style: italic;
+		color:#C0C0C0;
+	 	text-decoration: none;
+	 	font-size: 150%;
+	 }
+	}
 
 
 
@@ -239,6 +445,8 @@
 <html>
 <head>
 	<title> Brigitte - Portfolio </title>
+	<link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 	<link rel="shortcut icon" type="image/png" href="case/favicon.png"/>
 </head>
@@ -260,16 +468,34 @@
 
 
 
-<h1 id="intro" data-aos="fade-up" data-aos-duration="1000">Introduction</h1>
+
 
 <p id="tools"> Tools used : Sketch | HTML & CSS | Adobe Photoshop | Adobe Illustrator | JS </p>
 
+<h1 id="intro" data-aos="fade-up" data-aos-duration="1000">Objective</h1>
+
+<p> Re-design a modern, user-friendly site for customers to re-discover the services offered by Tsumiki's Salon.</p>
+
+
+
+<h1 id="intro" data-aos="fade-up" data-aos-duration="1000">The Problem</h1>
+
+<p> Tsumiki's original website looked abandoned and outdated. Prices, treatments, worker info, etc were all not kept up to date. The salon's location attracts heavy foot traffic, yet unfortunately the storefront is worn and easy to miss. Adding a dated website and no option for mobile was dire. </p>
+
+
+<h1 id="intro" data-aos="fade-up" data-aos-duration="1000">The Solution</h1>
+
+<p> Built a complete brand identity package that includes : colour schemes, typescale, brand illustrations, and integrated this into a simple and easy site. Though Snacky presents itself as low key and unassuming, this shouldn't turn away customers from discovering the place. I kept the site welcoming yet true to the restaurant's discreet nature.</p>
+
+
+<!--
 <p> Tsumiki originally had a very outdated website. One that was unintentionally stuck in the 90s. My first goal was to modernize their website, and the other was to create a mobile option. The salon attracts heavy foot traffic as its close to popular eateries and the only historic park in the East Village.
 Unfortunately, the storefront is easy to miss, the overhanging store banner is worn from age and the interior lighting is dim. My hope was to create a website that would herald a new breath of life. The fresh redesign would offer pride to new and old customers. A new-found pride would encourage customers to seek and maintain business with the salon.
 </p>
+-->
 
 
-<h1 id="intro" data-aos="fade-up" data-aos-duration="1000">Design Process / Testing</h1>
+<h1 id="intro" data-aos="fade-up" data-aos-duration="1000">Design, Planning & Research</h1>
 
 <p> My initial step was to create a straightforward web flow format to serve as a base to design the website around.
 	When developing wireframes, I started off by firstly expanding the elements of their old website. By doing this I could create a better sense of space. </p>
@@ -329,8 +555,9 @@ Initial trials centered around the heavy use of yellows and orange. These colour
 Throughout the design process I constantly sought to seek balance between professionalism and small shop charm. The end product is professional, clean, and charming. People prefer to invest more in self care when it is provided in a clean, calming environment. The website immediately promises this kind of care, with a design that takes all this into account.
 </p>
 
-<a href="index.html"><img class="lastArrow" src="case/backArrow.png"></a> 
 
+<hr>
+<footer><a href="#top"> Copyright © 2019 Brigitte Wang </a></footer>
 
 
   <script src="plugins/jquery-3.4.1.min.js"></script>

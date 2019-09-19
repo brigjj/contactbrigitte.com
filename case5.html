@@ -2,8 +2,63 @@
 
 <style type="text/css">
 	*{
-		font-family: arial;
+		-webkit-font-smoothing: antialiased;
 	 }
+
+	   p {
+	 	text-align: center;
+	 	line-height: 2;
+		margin-left: 8%;
+		margin-right: 8%;
+		margin-bottom: 8%;
+		font-size: 100%;
+		line-height: 2;
+		color:#9e9e9e;
+		color:#8B8A8A;
+		font-family: 'M PLUS 1p', sans-serif;
+	 }
+
+
+		@media screen and (min-width: 1024px){
+	p {
+		font-size: 100%;
+		margin-left: 6%;
+		margin-right: 6%;
+	}
+	}
+
+
+	@media screen and (min-width: 1280px){
+	p {
+		font-size:100%;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-bottom: 8%;
+	}
+	}
+
+
+
+	@media screen and (min-width: 1440px){
+	p {
+		font-size:110%;
+		margin-left: 8%;
+		margin-right: 8%;
+		margin-bottom: 8%;
+	}
+	}
+
+
+
+	@media screen and (min-width: 1680px){
+	p {
+		font-size:120%;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-bottom: 8%;
+	}
+	}
+
 
 	
 	 .container1{
@@ -72,19 +127,8 @@
 	height: 100%;
 	}
 
-	p{ 
-	color:rgba(33, 33, 33,0.8);
-	line-height: 2;
-	margin-left: 15%;
-	margin-right: 14%;
-	margin-bottom: 8%;
-	font-size: 1em;
-	color:#9e9e9e;
-	}
 
 
-
-   
 	.fitbit{
 	width:70%;
 	height:600px;
@@ -103,6 +147,51 @@
 	}
 	}
 
+	@media screen and (min-width: 1024px){
+	.fitbit{
+	width:70%;
+	height:500px;
+	margin-left:3.5%;
+	margin-top: 2.5%;
+	box-sizing: border-box;
+	font-size: 50px;
+	}
+	}
+
+	@media screen and (min-width: 1028px){
+	.fitbit{
+	width:70%;
+	height:600px;
+	margin-left:3.5%;
+	margin-top: 2.5%;
+	box-sizing: border-box;
+	font-size: 50px;
+	}
+	}
+
+
+	@media screen and (min-width: 1440px){
+	.fitbit{
+	width:70%;
+	height:700px;
+	margin-left:3.5%;
+	margin-top: 2.5%;
+	box-sizing: border-box;
+	font-size: 50px;
+	}
+	}
+
+
+	@media screen and (min-width: 1680px){
+	.fitbit{
+	width:70%;
+	height:750px;
+	margin-left:3.5%;
+	margin-top: 2.5%;
+	box-sizing: border-box;
+	font-size: 50px;
+	}
+	}
 
 	.fitbitM{
 	width:25%;
@@ -123,6 +212,50 @@
   	}
   	}
 
+  	@media screen and (min-width: 1024px){
+	.fitbitM{
+	width:25%;
+	height:400px;
+	position: relative;
+	left: -3.5%;
+	top:70px;
+	box-sizing: border-box;
+	}
+	}
+
+	@media screen and (min-width: 1028px){
+	.fitbitM{
+	width:25%;
+	height:470px;
+	position: relative;
+	left: -3.5%;
+	top:90px;
+	box-sizing: border-box;
+	}
+	}
+
+	@media screen and (min-width: 1440px){
+	.fitbitM{
+	width:25%;
+	height:550px;
+	position: relative;
+	left: -3.5%;
+	top:90px;
+	box-sizing: border-box;
+	}
+	}
+
+
+	@media screen and (min-width: 1680px){
+	.fitbitM{
+	width:25%;
+	height:630px;
+	position: relative;
+	left: -3.5%;
+	top:90px;
+	box-sizing: border-box;
+	}
+	}
 
 
 	a {
@@ -136,14 +269,35 @@
 		text-align: center;
 	}
 
+	
 	#intro {
 		position: relative;
 		text-align: center;
-		padding: 1%;
-		padding-top: 3%;
-		font-size: 2em;
-
+		bottom:20px;
+		font-size: 300%;
+		color:rgba(33, 33, 33,0.8);
 	}
+
+
+	@media screen and (min-width: 1024px){
+	#intro {
+		font-size: 250%;
+	}
+	}
+
+	@media screen and (min-width: 1680px){
+	#intro {
+		font-size: 350%;
+	}
+	}
+
+	@media screen and (min-width: 1920px){
+	#intro {
+		font-size: 400%;
+	}
+	}
+
+
 
 	#tools {
 		text-align: center;
@@ -152,14 +306,6 @@
 	}
 
 	
-	p{ 
-		line-height: 2;
-		margin-left: 15%;
-		margin-right: 14%;
-		margin-bottom: 8%;
-		font-size: 1em;
-		color:#9e9e9e;
-	}
 
 	
     .F1 {
@@ -252,21 +398,114 @@
     	padding-bottom: 10%;
   	}
 	}	
+	
+    hr {
+	display: block;
+	border:none;
+  	height: 20px;
+ 	width: 90%;
+	height: 50px;
+	padding-top:1%;
+	border-bottom: 1px solid #DCDCDC;
+	box-shadow: 0 20px 20px -20px #A9A9A9;
+ 	margin: -50px auto 10px; 
+	}
 
-    .lastArrow{
+   @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+	hr {
+	display: block;
+	border:none;
+  	height: 20px;
+ 	width: 100%;
+	height: 50px;
+	margin-top: 0;
+	padding-top:2%;
+	border-bottom: 1px solid #DCDCDC;
+	box-shadow: 0 20px 20px -20px #A9A9A9;
+ 	margin: -50px auto 10px; 
+	}
+	}
+
+
+	@media screen and (min-width: 1024px) {
+	hr {
+  	height: 35px;
+ 	width: 100%;
+	}
+	}
+
+
+
+
+
+   footer {
+		position: sticky;
+		color:#C0C0C0;
+		text-align: center;
+		font-size: 120%;
+		padding-top: 1%;
+		padding-right:1%;
+		text-decoration: none;
+	 }
+
+
+	@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+	  footer {
+		position: sticky;
+		text-align: center;
+		font-size: 150%;
+		padding-top: 2%;
+		padding-right:1%;
+		padding-bottom: 3%;
+		text-decoration: none;
+	}
+	}
+
+
+
+	 footer a {
+ 		position: sticky;
+	 	font-family: "Times New Roman", Times, serif;
+		font-style: italic;
+		color:#C0C0C0;
+	 	text-decoration: none;
+	 }
+
+
+	@media screen and (min-width: 1440px) {
+		 footer a {
+ 		position: sticky;
+	 	font-family: "Times New Roman", Times, serif;
+		font-style: italic;
+		color:#C0C0C0;
+	 	text-decoration: none;
+	 	font-size: 130%;
+	 }
+	}
+
+	@media screen and (min-width: 1680px) {
+		 footer a {
+ 		position: sticky;
+	 	font-family: "Times New Roman", Times, serif;
+		font-style: italic;
+		color:#C0C0C0;
+	 	text-decoration: none;
+	 	font-size: 150%;
+	 }
+	}
+
+  /*
+	    .lastArrow{
 		width:8%;
 		height:auto;
 		padding:1.5%;
 		opacity: 0.5;
 	}
-
-
 	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { 
   	.lastArrow {
   		width: 20%;
   	}
    }
-
     @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
   	.lastArrow {
   		width:8%;
@@ -275,7 +514,7 @@
 		opacity: 0.5;
   	}
     }
-
+ */
 
 </style>
 
@@ -286,6 +525,8 @@
 <html>
 <head>
 	<title> Brigitte - Portfolio </title>
+	<link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 	<link rel="shortcut icon" type="image/png" href="case/favicon.png"/>
 </head>
@@ -306,17 +547,34 @@ data-aos-duration="2000"><img src="case/fitbitdesktop.gif"alt="fitbitDesktop"/><
 </div>
 
 
-<h1 id="intro" data-aos="fade-up" data-aos-duration="1000">Introduction</h1>
 
 <p id="tools"> Tools used : Sketch | HTML & CSS | Adobe Photoshop | Adobe Illustrator </p>
 
+<h1 id="intro" data-aos="fade-up" data-aos-duration="1000">Objective</h1>
 
+<p> Modernize and re-design Fitbit's website to inspire a greater brand ethos. </p>
+
+
+
+<h1 id="intro" data-aos="fade-up" data-aos-duration="1000">The Problem</h1>
+
+<p> FITBIT's current website is flat, unfashionable, and contains repetitious information. </p>
+
+
+<h1 id="intro" data-aos="fade-up" data-aos-duration="1000">The Solution</h1>
+
+<p> Completely  re-branded Fitbit's site with new: colour schemes, brand illustrations, typefaces that gave a vigor and new fantasy to their products. Users experience a more enjoyable interaction with the site as it is concise and simple.</p>
+
+
+
+<h1 id="intro" data-aos="fade-up" data-aos-duration="1000">Design, Planning & Research</h1>
+
+<!--
 <p> Upon visiting FITBIT's current site, one will notice that the website is flat. Its underwhelming in style, yet overwhelming with the numerous amount of clickable content. This project started out as a personal project. Back when I worked in the fashion industry, nearly all of my colleagues sported fitbits. Therefore, I was considerably surprised to see the website in such an unfashionable state. I set out to revamp and inject some youthful vigor into the FITBIT site.
-</p>
+</p> -->
 
 
 
-<h1 id="intro" data-aos="fade-up" data-aos-duration="1000">Design Process / Testing</h1>
 
 <p> Upon further research into FITBIT's target market, I was introduced to a 
 <a href="https://blog.wellable.co/fitbit-newest-activity-trackers-target-corporate-wellness-market" target="_blank">2019 insight article </a>. The article stated that U.S. employers were expected to integrate more than 13 million health and fitness tracking devices into their wellness programs. Various articles declared that FITBIT's competitive prices allowed a greater range of new consumers the ability to afford wearable tech. FITBIT's affordable prices paired with a simple interactive device appeal to all age ranges. </p>
@@ -373,10 +631,12 @@ data-aos-duration="2000"><img src="case/fitbitdesktop.gif"alt="fitbitDesktop"/><
 
 <p> Industries centered around tech / health + wellness stir a great interest in me. I have solely developed a landing page for desktop and mobile, but will return to expand on this project in the near future.</p>
 
+<!--<a href="index.html"><img class="lastArrow" src="case/backArrow.png"></a> -->
+
+<hr>
+<footer><a href="#top"> Copyright © 2019 Brigitte Wang </a></footer>
 
 
-
-<a href="index.html"><img class="lastArrow" src="case/backArrow.png"></a> 
 
 <script type="text/javascript">
 $(window).scroll(function(){
